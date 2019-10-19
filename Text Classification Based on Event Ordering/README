@@ -1,0 +1,7 @@
+This foler contains the report in word and pdf format.
+
+It also contains the sub-folders 'Baseline' and 'MyApproach'. 
+
+The Baseline folder further contains two more folders namely Glove and Spacy, which are the two word emmbedding techniques used for the baseline. Each folder contains the respective source code, dataset files and a README on how to execute the files.
+
+The MyApproach folder contains the source code for my proposed solution, the dataset files and a README on how to execute the files.
