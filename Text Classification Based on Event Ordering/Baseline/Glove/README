@@ -1,1 +1,16 @@
+Download the glove.6B.100d.txt file for this baseline.
 
+Run the NLP_P1_Glove.ipynb file in the same folder as the glove.6B.100d.txt, P1_training_set.csv and P1_testing_set.csv files. 
+If you are running this on colab the glove.6B.100d.txt file may take a while to upload as it is a huge file.
+
+The packages required to run this file are tensorflow, keras and nltk.
+
+The first cell specifies the nltk downloads required to run the file. 
+On executing the nltk.download() command, the downloader appears. 
+Enter 'd' for download and 'all' to identify all the packages to be downloaded. 
+This takes about a minute. Once done, enter 'q' to quit the downloader.
+
+Then execute each cell in sequence in the rest of the notebook.
+
+The last cell is where the neural network uses tensorflow and it can throw some warnings  depending on the system on which the file is run. This can be ignored. 
+The test set result is displayed in terms of [loss, accuracy].
