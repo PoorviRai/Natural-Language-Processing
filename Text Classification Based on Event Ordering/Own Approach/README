@@ -1,1 +1,14 @@
+Run the NLP_P1_MyApproach.ipynb file in the same folder as the P1_training_set.csv and P1_testing_set.csv files.
 
+The packages required to run this file are tensorflow, keras and nltk.
+
+The first cell specifies the nltk downloads required to run the file. 
+On executing the nltk.download() command, the downloader appears. Enter 'd' for download and 'all' to identify all the packages to be downloaded. This takes about a minute. Once done, enter 'q' to quit the downloader.
+
+Then execute each cell in sequence in the rest of the notebook.
+
+The second last cell, where the vectors are being assigned, might throw a warning 'INFO:tensorflow:Saver not created because there are no variables in the graph to restore'. This can be ignored as I have ensured that all the vectors do indeed get stored in the variables.
+
+The neural network uses tensorflow and can also throw some warnings  depending on the system on which the file is run. This can also be ignored. 
+
+The test set result is displayed in terms of [loss, accuracy].
